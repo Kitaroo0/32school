@@ -1,0 +1,173 @@
+.header{
+	text-align: center;
+	padding: 20px;
+}
+.header a{
+	color: black;
+	text-decoration: none;
+	width: 200px;
+	display: inline-block;
+	padding: 10px;
+	font-size: 17px;
+	font-weight: lighter;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+.header a:hover{
+	background-color: #ccc;
+	border-radius: 10px;
+}
+.intro{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 15%;
+	background-image: url(image/hype.png);
+	background-position: top center;
+	line-height: 50px;
+}
+.intro a{
+	color: black;
+	text-decoration: none;
+	border: 5px solid white;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px;
+}
+.about img{
+	float:right;
+	width: 400px;
+	margin-top: 0px;
+	padding: 1%;
+}
+.about{
+	width: 80%;
+	margin: 50px auto;
+	font-size: 18px;
+	line-height: 25px;
+}
+.about h1{
+	text-align: center;
+}
+#team{
+	margin-top:100px;
+	text-align: center;
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 20px 10px;
+	border: 2px solid grey;
+	box-shadow:0px 2px 5px gray;
+	padding:20px;
+	text-align: left;
+	min-width: 300px;
+}
+.member img{
+	width: 100%;
+	height: 15%;
+}
+.position{
+	opacity: 0.6;
+}
+.member a{
+	background-color: #055b73;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 0px;
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+}
+#prices{
+	background-color: dimgray;
+	text-align: center;
+	padding: 30px;
+	color: white;
+}
+.tariff{
+	display: inline-block;
+	color: black;
+	list-style-type: none;
+	width: 30%;
+	min-width: 300px;
+	background-color: white;
+	padding: 0px;
+	margin: 10px;
+	vertical-align: middle;
+}
+.tariff li{
+	padding: 16px 0px;
+	border-bottom:1px solid #dddddd;
+}
+.tariff .best{
+	background-color: #055b73;
+	color: white;
+	padding: 48px 0px;
+}
+.tariff .tariff-name{
+	background-color: black;
+	color: white;
+	padding: 30px 0px;
+}
+li a{
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.price{
+	font-weight: bold;
+	font-size: 20px;
+}
+.period{
+	opacity: 0.6;
+}
+.tariff li:last-child{
+	background-color: #f1f1f1;
+}
+
+.tariff a:hover{
+	background-color: gray;
+}
+
+
+
+
+
+
+
+#contact{
+	text-align: center;
+	padding: 30px;
+	background-color: #f1f1f1;
+}
+.info{
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+}
+#contact input{
+	width: 100%;
+	margin-bottom: 15px;
+	height: 30px;
+}
+#contact button{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	padding: 7px;
+}
+.address{
+	background-image: url(image/address.png);
+}
+.phone{
+	background-image: url(image/phone.png);
+}
+.email{
+	background-image: url(image/email.png);
+}
